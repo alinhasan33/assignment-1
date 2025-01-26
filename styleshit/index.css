@@ -1,0 +1,79 @@
+.pri{
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+}
+body{
+    align-items: center ;
+}
+/* shared style */
+.btnpri{
+    border-radius: 8px;
+    color:rgba(0, 106, 80, 1) ;
+    border-color: rgba(0, 106, 80, 1);
+    padding: 15px 30px ;
+
+}
+/* nav bar style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 160px;
+    margin-right: 160px;
+    width: 1280px;
+}
+.btn1{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.ih3{
+    margin-top: 24px;
+    
+}
+/* first banner sttyle */
+.banner1{
+    display: flex;
+    justify-content: space-between;rgba
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 59.99px;
+    padding-left: 59.99 px;
+    background-color: rgba(198, 228, 214, 1);
+    align-items:center;
+    height: 560px ;
+    width: 1280px  ;   
+    margin-left:160px ;
+    margin-right: 160px ;
+    border-radius:24px ;
+    margin-bottom: 80px;
+    
+}
+.banner1-img{
+    margin-right: 160px;
+
+}
+.banner1-text{
+    margin-left: 160px;
+    margin-top: 117px;
+    margin-bottom: 117px;
+}
+.ban1-des{
+    height: 201px;
+    width: 622px;
+    font-size: 56px ;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+    margin-top: 16px;
+}
+.btn2{
+    padding:17px 34px;
+    background-color:rgba(0, 106, 80, 1);
+    color:rgba(255, 255, 255, 1) ;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 16px;
+}
+.ban-title{
+    color:rgba(14, 14, 14, 0.5) ;
+    font-size: 24px;
+
+}
