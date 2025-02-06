@@ -1,9 +1,13 @@
 .pri{
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
+    align-items: center;
 }
 body{
+    height: 5307px;
+    width: 1600px;
     align-items: center ;
+    background-color: rgba(241, 241, 243, 1);
 }
 /* shared style */
 .btnpri{
@@ -76,4 +80,258 @@ nav{
     color:rgba(14, 14, 14, 0.5) ;
     font-size: 24px;
 
+}
+/* vision style */
+.vibtn{
+    padding:11px 20px;
+    color:rgba(255, 255, 255, 1) ;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 32px;
+}
+.bt1{
+    background-color:rgba(84, 144, 245, 1);
+}
+.bt2{
+    background-color: rgba(9, 161, 92, 1);
+
+}
+.bt3{
+background-color: rgba(255, 194, 57, 1);
+}
+.visions{
+}
+.vision{
+    margin-bottom: 32px;
+    margin: top 32px; ;
+    width: 410px;
+    height: 325px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    gap: 24px;
+
+}
+#vis1{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    margin-right: 24px;
+}
+#vis2{
+    background-color: rgba(198, 228, 214, 1);
+    padding: 32px;
+    margin-right: 24px;
+}
+#vis3{
+    background-color: rgba(247, 235, 207, 1);
+    padding: 32px;
+    margin-right: 24px;
+}
+.vision-des{
+    margin-bottom: 24px;
+}
+/* dr younus */
+.dr{
+    background-image: url("/B11A1--assignment-1/assets/quote-bg.png");
+    height: 256px;
+    width: 1280;
+    background-repeat: no-repeat;
+}
+.drtxt{
+    height: 256px;
+    width: 1280px;
+    border-radius:16px;
+    background-color: #fff;
+    padding: 48px 24px;
+    
+}
+/* ebanner design */
+ .rn{
+    margin-left:160px ;
+ }
+ .ebannimg{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+    margin-right: 32px;
+ }
+ .ebann1{
+    display: flex;
+    justify-content: space-between;
+    height: 402px;
+    width: 1280px;
+    background-color: #fff;
+    padding: 48px 48px;
+    height: 402px;
+    width: 1280px;
+    border-radius: 24px;
+    margin-bottom: 24px;
+ }
+ .dt{
+    display: flex;
+    justify-content: space-between;
+
+ }
+ 
+ .time{
+    margin-right: 480px;
+ }
+ .ebannbtn{
+    padding: 13px 26px;
+    background-color: rgba(0, 106, 80, 1);
+    height: 48px;
+    width: 139px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+ }
+ .ebann1des{
+    height: 72px;
+    width: 744px;
+
+ }
+/* table style */
+.tbldiv{
+    height: 409px;
+    width: 1280px;
+    background-color: #fff;
+    margin-left: 160px;
+}
+.tbl{
+    background-color:white;
+    border: 10px;
+    height: 345px;
+    width: 1216px;
+    padding: 32px;
+    border: 5px red;
+    stroke-width: 1px;
+    
+}
+.strow{
+    background-color: rgba(198, 228, 214, 1);
+    border: 5px black;
+}
+.tablehead{
+    margin-left: 160px;
+}
+
+table, tr, th{
+    border-color: black;
+}
+
+.tblbtn{
+    height: 44px;
+    width: 152px;
+    padding-left: 16.5px;
+    padding-top:12.5px;
+    padding-bottom: 12.5px;
+    background-color: rgba(198, 228, 214, 1);
+    border-color: rgba(14, 14, 14, 1);
+    border-radius: 4px;
+}
+.que{
+    padding-left: 24px;
+    text-align: left;
+}
+/* Donate */
+.donate{
+    text-align: center;
+    height: 464px;
+    width: 1280px;
+    margin-left:160px ;
+    padding-left: 88px;
+    margin-bottom:80px ;
+}
+.takkas{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.taka{
+    height:128px ;
+    width: 240px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 16px;
+    font-size:40 ;
+    font-weight: bold;
+    margin-right: 24px;
+    margin-bottom: 32px;
+}
+#gtk{
+    background-color: rgba(198, 228, 214, 1);
+}
+.form{
+    height: 64px;
+    width: 1032px;
+}
+.lastdiv{
+    height:395px ;
+    width: 1280px;
+    margin-left: 160px;
+    text-align: center;
+    background-color:rgba(198, 228, 214, 1);
+    padding: 80px 100px;
+    margin-bottom: 200px;
+}
+.subs{
+    font-size: 40;
+    font-weight: bold;
+}
+.emin{
+    height: 56px;
+    width: 750px;
+    background-color: #fff;
+}
+/* foter */
+.endiv{
+    text-align: center;
+    display: flex;
+    margin-left: 160px;
+}
+footer{
+    padding-bottom: 138px;
+    padding-top: 50px;
+   text-align: center;
+   align-items: center;
+   background-color: #fff;
+   margin-left: 160px;
+}
+.endimg{
+    margin-right: 30px;
+}
+/* sec 2 style */
+.pillars{
+    margin-right: 160px;
+    margin-left:160px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.pillar-baap{
+    height: 560px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.pillar{
+    margin-right: 24px;
+    padding:24px;
+    width: 302px;
+    height: 270px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    gap: 24px;
+         
+}
+.pillar-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(3, 0, 0, 0.8);
+}
+.pillar-des{
+    color: rgba(14, 14, 14, 0.7
+    text-align:justify;
+    margin-bottom: 0px;
 }
